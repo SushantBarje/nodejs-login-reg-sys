@@ -2,7 +2,7 @@ var express = require('express');
 var router = express.Router();
 var mysql = require('mysql');
 var bcrypt = require('bcrypt');
-var con = require('../database/con');
+var con = require('../conn/conn');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
