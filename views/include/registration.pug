@@ -1,0 +1,21 @@
+extends ../layout
+
+block content
+    .reg-box
+        .header
+            h2 Registration
+        form(action="/auth_reg", method="post")
+            .form-group
+                label(for="fullname") Fullname
+                input(type="rext" name="fullname" class="form-control")
+            .form-group
+                label(for="email") Email
+                input(type="email" name="email" class="form-control")
+            .form-group
+                label(for="password") Password
+                input(type="password" name="password" class="form-control")
+            .form-group
+                label(for="cpassword") Confirm Password
+                input(type="password" name="cpassword" class="form-control")
+            
+            button(type="submit" class="btn btn-primary") Submit

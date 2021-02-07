@@ -1,0 +1,14 @@
+extends ../layout
+
+block content
+    .login-box
+        .header
+            h2 Log In
+        form(action="/auth_login", method="post")
+            .form-group
+                label(for="email") Email
+                input(type="email" name="email" class="form-control shadow-none")
+            .form-group
+                label(for="password") Password
+                input(type="password" name="password" class="form-control")
+            button(type="submit" class="btn btn-primary") Login

@@ -1,0 +1,155 @@
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing: content-box;
+}
+h1{
+    background-color: rgba(255, 255, 255, 0.719);
+    padding :20px;
+    margin: 5px 0 0 0px!important;
+    color: rgb(61, 61, 61) !important;
+}
+
+p{
+    font-size: 15px;
+    color: whitesmoke;
+}
+
+.alert{
+    margin : 0 100px;
+}
+
+.row{
+    padding : 20px;
+    margin : 10px 0 0 0;
+}
+
+.login-box{
+    min-height : 440px;
+    width: 400px;
+    padding : 20px;
+    border-radius: 0 2em 2em 0;
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0);
+    box-shadow: 5px 5px 10px rgba(43, 64, 88, 0.671);
+    border-left: 8px solid red;
+}
+.login-box .header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.login-box .header h2{
+    font-weight: 700;
+    color : rgb(255, 0, 0);
+    padding : 5px 30px;
+}
+
+.login-box form .form-group{
+    padding : 5px;
+}
+
+.login-box label{
+    color : rgb(0, 0, 0);
+    margin: 10px 0 5px 10px;
+    font-size: 17px;
+    font-weight: 200;
+}
+
+
+
+.login-box input.form-control{
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid rgb(243, 11, 11);
+    outline: hidden;
+    border-radius: 0%;
+    color : black;
+    font-size: 17px;
+    box-shadow: none;
+    border-color: none;
+}
+
+.login-box button.btn{
+    position: relative;
+    top : 20px;
+    left: 70px;
+    border :none;
+    padding: 10px 80px;
+    border-radius: 40px;
+    font-size: 16px;
+    background-color: rgb(255, 47, 47);
+}
+.login-box button.btn:hover{
+    background-color: rgb(51, 122, 183);
+    color:white;
+}
+
+.reg-box{
+    margin-left: 10px;
+    width: 500px;
+    padding : 20px;
+    border-radius: 2em;
+    border-radius: 0 2em 2em 0;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 10px rgba(43, 64, 88, 0.671);
+    border-left: 8px solid red;
+}
+
+.reg-box .header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reg-box .header h2{
+    font-weight: 700;
+    color : rgb(255, 255, 255);
+    background-color: rgb(0, 4, 255);
+    padding : 5px 30px;
+    border-radius: 3em;
+}
+
+.reg-box form .form-group{
+    padding : 2px;
+    
+}
+
+.reg-box label{
+    color : rgb(0, 0, 0);
+    margin: 10px 0 5px 10px;
+    font-size: 17px;
+    font-weight: 200;
+}
+
+.reg-box input.form-control{
+    border: none;
+    background: transparent;
+    outline: hidden;
+    border-radius: 0%;
+    color : black;
+    font-size: 17px;
+    border-bottom: 2px solid rgb(243, 11, 11);
+    box-shadow: none;
+    border-color: none;
+}
+
+.reg-box button.btn{
+    position: relative;
+    left: 120px;
+    border :none;
+    padding: 10px 80px;
+    border-radius: 40px;
+    font-size: 16px;
+    background-color: rgb(255, 47, 47);
+}
+.reg-box button.btn:hover{
+    background-color: rgb(51, 122, 183);
+    color:white;
+}
+
+input.form-control:focus{
+    border-bottom: 2px solid greenyellow;
+}
