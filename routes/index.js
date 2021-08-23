@@ -8,22 +8,22 @@ var con = require('../conn/conn');
 router.get('/', function(req, res, next) {
   if(req.session.flag == 1){
     req.session.destroy();
-    res.render('index', { title: 'CodeLanguage', message : 'Email Already Exists' , flag : 1});
+    res.render('index', { title: 'Techkeyz', message : 'Email Already Exists' , flag : 1});
   }
   else if(req.session.flag == 2){
     req.session.destroy();
-    res.render('index', { title: 'CodeLanguage', message : 'Registration Done. Please Login.', flag : 0});
+    res.render('index', { title: 'Techkeyz', message : 'Registration Done. Please Login.', flag : 0});
   }
   else if(req.session.flag == 3){
     req.session.destroy();
-    res.render('index', { title: 'CodeLanguage', message : 'Confirm Password Does Not Match.', flag : 1});
+    res.render('index', { title: 'Techkeyz', message : 'Confirm Password Does Not Match.', flag : 1});
   }
   else if(req.session.flag == 4){
     req.session.destroy();
-    res.render('index', { title: 'CodeLanguage', message : 'Incorrect Email or Password.', flag : 1 });
+    res.render('index', { title: 'Techkeyz', message : 'Incorrect Email or Password.', flag : 1 });
   }
   else{
-    res.render('index', { title: 'CodeLanguage' });
+    res.render('index', { title: 'Techkeyz' });
   }
    
 });
